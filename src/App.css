@@ -1,0 +1,112 @@
+/* styles.css */
+
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: gray;
+  margin: 0;
+  padding: 0;
+}
+
+.header, .skills, .experience, .education, .summary, .contact {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  
+}
+
+.calculator{
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+}
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #333;
+}
+
+.header p {
+  margin: 5px 0 0;
+  font-size: 1.2em;
+  color: #777;
+}
+
+section h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+  color: #333;
+}
+
+.contact p,
+.summary p,
+.job ul,
+.degree p,
+.skills ul {
+  margin: 10px 0;
+}
+
+.experience ul, .skills ul, .education h4{
+  margin-left: 50px;
+}
+.job, .degree {
+  margin-bottom: 15px;
+}
+
+.job h3, .degree h3 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #444;
+}
+
+.job h4, .degree h4 {
+  margin: 5px 0 0;
+  font-size: 1.2em;
+  color: #777;
+}
+
+.date {
+  font-style: italic;
+  color: #999;
+}
+
+ul {
+  margin: 10px 0 0 20px;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+  body{
+    background-color: red;
+  }
+  .header, .skills, .experience, .education, .summary, .contact {
+    border-radius: 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  body{
+    background-color: blue;
+  }
+  .header, .skills, .experience, .education, .summary, .contact {
+    border-radius: 0px;
+  }
+
+}
